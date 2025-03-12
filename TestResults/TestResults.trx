@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="3e83e178-fb25-4ec8-815f-444ac91e95fe" name="Areesha.Raees@QA-AREESHA 2025-03-08 13:31:48" runUser="QA-AREESHA\Areesha.Raees" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-03-08T13:31:48.8873351+05:00" queuing="2025-03-08T13:31:48.8873353+05:00" start="2025-03-08T13:31:01.0112329+05:00" finish="2025-03-08T13:31:48.8967963+05:00" />
+  <TestSettings name="default" id="71dcd359-9f8d-4b02-b5bf-ad2b027d7447">
+    <Deployment runDeploymentRoot="Areesha.Raees_QA-AREESHA_2025-03-08_13_31_48" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="d35eef9d-1d34-4d98-b94f-733b506a3fea" testId="eab75263-5c1d-9b9d-5d1f-77ede99076d2" testName="SignupFlowTest" computerName="QA-AREESHA" duration="00:00:46.8212390" startTime="2025-03-08T13:31:01.9085882+05:00" endTime="2025-03-08T13:31:48.7297598+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d35eef9d-1d34-4d98-b94f-733b506a3fea">
+      <Output>
+        <StdOut>[Console Log]: [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o&#xD;
+[Console Log]: Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://js.test.paygateway.com') does not match the recipient window's origin ('https://qaopenedgeapi.e-bizsoft.net').&#xD;
+[Console Log]: Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://js.test.paygateway.com') does not match the recipient window's origin ('https://qaopenedgeapi.e-bizsoft.net').&#xD;
+[Console Log]: Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://js.test.paygateway.com') does not match the recipient window's origin ('https://qaopenedgeapi.e-bizsoft.net').&#xD;
+[Console Log]: Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://js.test.paygateway.com') does not match the recipient window's origin ('https://qaopenedgeapi.e-bizsoft.net').&#xD;
+[Waiting for Verification Code input...]&#xD;
+[Console Log]: 671089&#xD;
+[Captured Verification Code]: 671089&#xD;
+[Entering Verification Code]: 671089&#xD;
+[Modal]: Clicked on 'No' button.&#xD;
+[Modal]: SweetAlert modal and overlay are hidden.&#xD;
+[Action]: Starting Billing Information process...&#xD;
+[Action]: Checked 'Billing Same As Company'.&#xD;
+[Action]: Clicked on Billing section Next button.&#xD;
+[Success]: Billing Information submitted successfully.&#xD;
+[Action]: Checked 'Please review and accept ACH'.&#xD;
+[Console Log]: jQuery.Deferred exception: Cannot read properties of null (reading 'getElementsByTagName') TypeError: Cannot read properties of null (reading 'getElementsByTagName')&#xD;
+    at HTMLDocument.&lt;anonymous&gt; (https://qasignup.e-bizsoft.net/javascript/SignUp/SignUp.js?v=20240129007:3198:54)&#xD;
+    at j (https://qasignup.e-bizsoft.net/javascript/SignUp/jquery.min.js:2:29999)&#xD;
+    at k (https://qasignup.e-bizsoft.net/javascript/SignUp/jquery.min.js:2:30313) undefined&#xD;
+[Captured Verification Code]: 3198&#xD;
+[Console Log]: Failed to load resource: the server responded with a status of 404 ()&#xD;
+[Console Log]: Refused to execute script from 'https://qasignup.e-bizsoft.net/cdn-cgi/scripts/email-decode.min.js-cb/cloudflare-static/email-decode.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.&#xD;
+[Console Log]: jQuery.Deferred exception: Cannot read properties of null (reading 'getElementsByTagName') TypeError: Cannot read properties of null (reading 'getElementsByTagName')&#xD;
+    at HTMLDocument.&lt;anonymous&gt; (https://qasignup.e-bizsoft.net/javascript/SignUp/SignUp.js?v=20240129007:3198:54)&#xD;
+    at j (https://qasignup.e-bizsoft.net/javascript/SignUp/jquery.min.js:2:29999)&#xD;
+    at k (https://qasignup.e-bizsoft.net/javascript/SignUp/jquery.min.js:2:30313) undefined&#xD;
+[Captured Verification Code]: 3198&#xD;
+[Success]: Order placed successfully.&#xD;
+[Debug]: Subscription info: 3585&#xD;
+Huel Inc&#xD;
+40262 Monique Spurs&#xD;
+East Donato, CA, 67248&#xD;
+United States&#xD;
+0199965307&#xD;
+&#xD;
+[Debug]: Admin info: Dahlia Paucek&#xD;
+8815890928&#xD;
+[email protected]&#xD;
+[Success]: Both subscription and admin info verified.</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="SignupFlowTest" storage="c:\projects\playwright\playwrightdotnetproject\bin\debug\net9.0\playwrightdotnetproject.dll" id="eab75263-5c1d-9b9d-5d1f-77ede99076d2">
+      <Execution id="d35eef9d-1d34-4d98-b94f-733b506a3fea" />
+      <TestMethod codeBase="C:\Projects\Playwright\Playwrightdotnetproject\bin\Debug\net9.0\Playwrightdotnetproject.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlaywrightDotnetProject.Tests.SignupTest" name="SignupFlowTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="eab75263-5c1d-9b9d-5d1f-77ede99076d2" executionId="d35eef9d-1d34-4d98-b94f-733b506a3fea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 5.0.0.0: Test execution started&#xD;
+Running all tests in C:\Projects\Playwright\Playwrightdotnetproject\bin\Debug\net9.0\Playwrightdotnetproject.dll&#xD;
+   NUnit3TestExecutor discovered 1 of 1 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+[Console Log]: [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o&#xD;
+[Console Log]: Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://js.test.paygateway.com') does not match the recipient window's origin ('https://qaopenedgeapi.e-bizsoft.net').&#xD;
+[Console Log]: Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://js.test.paygateway.com') does not match the recipient window's origin ('https://qaopenedgeapi.e-bizsoft.net').&#xD;
+[Console Log]: Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://js.test.paygateway.com') does not match the recipient window's origin ('https://qaopenedgeapi.e-bizsoft.net').&#xD;
+[Console Log]: Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://js.test.paygateway.com') does not match the recipient window's origin ('https://qaopenedgeapi.e-bizsoft.net').&#xD;
+[Waiting for Verification Code input...]&#xD;
+[Console Log]: 671089&#xD;
+[Captured Verification Code]: 671089&#xD;
+[Entering Verification Code]: 671089&#xD;
+[Modal]: Clicked on 'No' button.&#xD;
+[Modal]: SweetAlert modal and overlay are hidden.&#xD;
+[Action]: Starting Billing Information process...&#xD;
+[Action]: Checked 'Billing Same As Company'.&#xD;
+[Action]: Clicked on Billing section Next button.&#xD;
+[Success]: Billing Information submitted successfully.&#xD;
+[Action]: Checked 'Please review and accept ACH'.&#xD;
+[Console Log]: jQuery.Deferred exception: Cannot read properties of null (reading 'getElementsByTagName') TypeError: Cannot read properties of null (reading 'getElementsByTagName')&#xD;
+    at HTMLDocument.&lt;anonymous&gt; (https://qasignup.e-bizsoft.net/javascript/SignUp/SignUp.js?v=20240129007:3198:54)&#xD;
+    at j (https://qasignup.e-bizsoft.net/javascript/SignUp/jquery.min.js:2:29999)&#xD;
+    at k (https://qasignup.e-bizsoft.net/javascript/SignUp/jquery.min.js:2:30313) undefined&#xD;
+[Captured Verification Code]: 3198&#xD;
+[Console Log]: Failed to load resource: the server responded with a status of 404 ()&#xD;
+[Console Log]: Refused to execute script from 'https://qasignup.e-bizsoft.net/cdn-cgi/scripts/email-decode.min.js-cb/cloudflare-static/email-decode.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.&#xD;
+[Console Log]: jQuery.Deferred exception: Cannot read properties of null (reading 'getElementsByTagName') TypeError: Cannot read properties of null (reading 'getElementsByTagName')&#xD;
+    at HTMLDocument.&lt;anonymous&gt; (https://qasignup.e-bizsoft.net/javascript/SignUp/SignUp.js?v=20240129007:3198:54)&#xD;
+    at j (https://qasignup.e-bizsoft.net/javascript/SignUp/jquery.min.js:2:29999)&#xD;
+    at k (https://qasignup.e-bizsoft.net/javascript/SignUp/jquery.min.js:2:30313) undefined&#xD;
+[Captured Verification Code]: 3198&#xD;
+[Success]: Order placed successfully.&#xD;
+[Debug]: Subscription info: 3585&#xD;
+Huel Inc&#xD;
+40262 Monique Spurs&#xD;
+East Donato, CA, 67248&#xD;
+United States&#xD;
+0199965307&#xD;
+&#xD;
+[Debug]: Admin info: Dahlia Paucek&#xD;
+8815890928&#xD;
+[email protected]&#xD;
+[Success]: Both subscription and admin info verified.&#xD;
+&#xD;
+NUnit Adapter 5.0.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

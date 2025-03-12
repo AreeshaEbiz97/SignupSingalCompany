@@ -1,0 +1,86 @@
+{
+  "uuid": "18aff01f-df88-4e81-9932-690b5a6df2a9",
+  "historyId": "c87ce0f6d1776d8fec2a3143dfaf3a29",
+  "testCaseId": "4ac96ed9e2b0f639e17eeb3b3b10d87c",
+  "fullName": "Playwrightdotnetproject:PlaywrightDotnetProject.Tests.SignupTest.SignupFlowTest()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "QA-AREESHA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PlaywrightDotnetProject.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "SignupFlowTest"
+    },
+    {
+      "name": "testClass",
+      "value": "SignupTest"
+    },
+    {
+      "name": "tag",
+      "value": "Signup"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "story",
+      "value": "User completes full signup process successfully"
+    },
+    {
+      "name": "owner",
+      "value": "QA Team"
+    },
+    {
+      "name": "feature",
+      "value": "Signup Feature"
+    },
+    {
+      "name": "suite",
+      "value": "Signup Tests"
+    }
+  ],
+  "links": [
+    {
+      "name": "TMS-1234",
+      "url": "TMS-1234",
+      "type": "tms"
+    },
+    {
+      "name": "BUG-5678",
+      "url": "BUG-5678",
+      "type": "issue"
+    }
+  ],
+  "name": "SignupFlowTest",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "27956a62-0cc2-4928-a4b3-34091cfb610a-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1741438351355,
+  "stop": 1741438399800
+}

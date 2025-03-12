@@ -1,0 +1,12 @@
+{
+    "bindingCulture": {
+      "name": "en-US"
+    },
+    "stepDefinitions": {
+      "generateStepDefinitions": true
+    },
+    "trace": {
+      "traceSuccessfulSteps": true
+    }
+  }
+  
