@@ -1,0 +1,38 @@
+[Console Log]: [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o
+[Console Log]: Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://js.test.paygateway.com') does not match the recipient window's origin ('https://qaopenedgeapi.e-bizsoft.net').
+[Console Log]: Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://js.test.paygateway.com') does not match the recipient window's origin ('https://qaopenedgeapi.e-bizsoft.net').
+[Console Log]: Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://js.test.paygateway.com') does not match the recipient window's origin ('https://qaopenedgeapi.e-bizsoft.net').
+[Console Log]: Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://js.test.paygateway.com') does not match the recipient window's origin ('https://qaopenedgeapi.e-bizsoft.net').
+[Waiting for Verification Code input...]
+[Console Log]: 382802
+[Captured Verification Code]: 382802
+[Entering Verification Code]: 382802
+[Modal]: Clicked on 'No' button.
+[Modal]: SweetAlert modal and overlay are hidden.
+[Action]: Starting Billing Information process...
+[Action]: Checked 'Billing Same As Company'.
+[Action]: Clicked on Billing section Next button.
+[Success]: Billing Information submitted successfully.
+[Action]: Checked 'Please review and accept ACH'.
+[Console Log]: jQuery.Deferred exception: Cannot read properties of null (reading 'getElementsByTagName') TypeError: Cannot read properties of null (reading 'getElementsByTagName')
+    at HTMLDocument.<anonymous> (https://qasignup.e-bizsoft.net/javascript/SignUp/SignUp.js?v=20240129007:3198:54)
+    at j (https://qasignup.e-bizsoft.net/javascript/SignUp/jquery.min.js:2:29999)
+    at k (https://qasignup.e-bizsoft.net/javascript/SignUp/jquery.min.js:2:30313) undefined
+[Captured Verification Code]: 3198
+[Console Log]: jQuery.Deferred exception: Cannot read properties of null (reading 'getElementsByTagName') TypeError: Cannot read properties of null (reading 'getElementsByTagName')
+    at HTMLDocument.<anonymous> (https://qasignup.e-bizsoft.net/javascript/SignUp/SignUp.js?v=20240129007:3198:54)
+    at j (https://qasignup.e-bizsoft.net/javascript/SignUp/jquery.min.js:2:29999)
+    at k (https://qasignup.e-bizsoft.net/javascript/SignUp/jquery.min.js:2:30313) undefined
+[Captured Verification Code]: 3198
+[Success]: Order placed successfully.
+[Debug]: Subscription info: 3594
+Lowe - Ward
+1366 Heaney Rapid
+Port Destin, CA, 28573
+United States
+9871127187
+
+[Debug]: Admin info: Jaydon Miller
+5399716851
+Shayna_Swaniawski@gmail.com
+[Success]: Both subscription and admin info verified.

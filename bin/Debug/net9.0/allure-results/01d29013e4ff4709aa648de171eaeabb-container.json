@@ -1,0 +1,12 @@
+{
+  "uuid": "3a647661-6eba-4094-ab6d-d953d0fbc12f",
+  "name": "PlaywrightDotnetProject.Tests.SignupTest",
+  "children": [
+    "18aff01f-df88-4e81-9932-690b5a6df2a9"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1741438351334,
+  "stop": 1741438399845
+}
