@@ -1,0 +1,7 @@
+@echo off
+echo Running Build...
+dotnet build Playwrightdotnetproject.sln
+echo Running Tests...
+dotnet test Playwrightdotnetproject.sln
+echo Build and Tests Completed!
+exit /b 0
